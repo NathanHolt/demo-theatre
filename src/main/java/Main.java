@@ -9,6 +9,21 @@ public class Main {
 
         double price = 12.5;
         int age;
+        boolean lights = true;
+
+//        if (lights) {
+//            System.out.println("the lights are on");
+//        } else {
+//            System.out.println("the lights are off");
+//        }
+//
+//        lights = !lights;
+//
+//        if (lights) {
+//            System.out.println("the lights are on");
+//        } else {
+//            System.out.println("the lights are off");
+//        }
 
         System.out.println("Please enter your age");
         age = scan.nextInt();
