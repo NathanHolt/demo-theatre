@@ -27,23 +27,4 @@ public class Main {
 }
 
 
-//        scanner.nextLine();
-//
-//        scanner.nextInt();
-//        scanner.nextDouble();
-
-//        System.out.println();
-//        System.out.print();
-
-
-//        if check for child
-//        age < 11
-
-//        if (age < 9) {
-//            price = 100;
-//        }
-
-//        else {
-//            price = 12.5;
-//        }
 
