@@ -24,7 +24,7 @@ public class Main {
 
             if (age <= 1) {
                 extra = "diaper";
-            }else if (age < 5) {
+            } else if (age < 5) {
                 extra = "toy";
             }
         } else if (age > 65) {
@@ -59,6 +59,12 @@ public class Main {
         }
     }
 }
+
+//        if (age <= 10)
+//         if (age < 5)
+//            System.out.println("Free toy!");
+//        else
+//            System.out.println("Toys are for kids!");
 
 
 //    boolean canIf = true;
