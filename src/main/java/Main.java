@@ -8,9 +8,8 @@ public class Main {
         NumberFormat numFor = NumberFormat.getCurrencyInstance();
 
         double price = 12.5;
-        int age = 0;
+        int age;
         String extra = "";
-        int count;
 
 //        String test = extra + " yay";
 
@@ -41,19 +40,50 @@ public class Main {
 //        print out result
         System.out.println("Your ticket price is: " + numFor.format(price));
 
-        if (extra.equals("toy")) {
-            System.out.println("You get a toy!");
-        } else if (extra.equals("diaper")) {
-            System.out.println("You get a diaper!");
-        } else if (extra.equals("sticker")) {
-            System.out.println("You get a sticker!");
-        } else if (extra.equals("drink")) {
-            System.out.println("You get a free drink!");
-        } else {
-            System.out.println("You get no extra");
+        switch (extra) {
+            case "toy":
+                System.out.println("You get a toy!");
+                break;
+            case "diaper":
+                System.out.println("You get a diaper!");
+                break;
+            case "sticker":
+                System.out.println("You get a sticker!");
+                break;
+            case "drink":
+                System.out.println("You get a free drink!");
+                break;
+            default:
+                System.out.println("You get no extra");
+                break;
         }
     }
 }
 
 
+//    boolean canIf = true;
+//        int switcher = 43;
 
+//             if (canIf) {
+//                    System.out.println("this works!");
+//
+//                    switch (switcher) {
+//                        case 0:
+//                            System.out.println("this is nuts");
+//                            break;
+//                        default:
+//                            System.out.println("why would you do this???");
+//                    }
+//                }
+
+//        if (extra.equals("toy")) {
+//            System.out.println("You get a toy!");
+//        } else if (extra.equals("diaper")) {
+//            System.out.println("You get a diaper!");
+//        } else if (extra.equals("sticker")) {
+//            System.out.println("You get a sticker!");
+//        } else if (extra.equals("drink")) {
+//            System.out.println("You get a free drink!");
+//        } else {
+//            System.out.println("You get no extra");
+//        }
